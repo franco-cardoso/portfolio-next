@@ -1,0 +1,31 @@
+{
+    "translation": {
+        "notif.clipboard": "Copiado al portapapeles!",
+
+        "about.hello": "Hola,",
+        "about.im.franco": "soy Franco",
+        "about.im.frontend.webdev": "Soy un desarrollador web full stack basado en Argentina.",
+        "about.focused.on": "Con experiencia usando",
+        "about.frameworks": "front-end",
+        "about.reactive": "frameworks front-end",
+        "about.aswell": " modernos, <br/>como también desarrollando servicios de back-end.",
+        "about.info.fullstack": "Desarrollador Web Full Stack",
+        "about.info.graduate": "Graduado en Academia Numen",
+        "about.info.p1": "Hola, mi nombre es Franco, y soy un desarrollador web full stack con una pasión por crear aplicaciones y sitios web funcionales y estéticos. Con una fuerte fundación en desarrollo tanto front-end como back-end, Soy capaz de llevar projectos desde lo conceptual hasta su presentación con fluidez. Entre mis habilidades se incluyen alto nivel de inglés, proficiencia en lenguajes como <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>SQL</b>, <b>Python</b>, frameworks front-end como <b>React</b> o <b>Vue</b>, así como también servicios de back-end como bases de datos con <b>MongoDB</b> y servidores de <b>Node.js</b>.",
+        "about.info.building": "Ya sea construir sitios web responsivos, desarrollar aplicaciones escalables, o integrar with APIs, tengo las habilidades para emprender una variedad de projectos, junto con una alta adaptabilidad al aprender nuevas tecnologías.",
+        "about.info.graduated": "Graduado en Academia Numen, recibí una diplomatura en Desarrollo Web Full Stack, respaldada por la Universidad Atlántida Argentina",
+
+        "navbar.home": "Inicio",
+        "navbar.webapps": "Web Apps",
+        "navbar.work": "Trabajo",
+        "navbar.contact": "Contacto",
+
+        "webapps.titleBakery": "Premium Bakery",
+        "webapps.subBakery": "Proyecto de React",
+        "webapps.descBakery": "Tienda online con temática de panadería, desarrollada para un trabajo grupal.",
+
+        "contact.contact": "Contáctame",
+        "contact.email": "Envía un correo",
+        "contact.phone": "Llámame"
+    }
+}

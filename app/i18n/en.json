@@ -1,0 +1,31 @@
+{
+    "translation": {
+        "notif.clipboard": "Copied to clipboard!",
+
+        "about.hello": "Hello,",
+        "about.im.franco": "I'm Franco",
+        "about.im.frontend.webdev": "I'm a full stack web developer based in Argentina.",
+        "about.focused.on": "With proficiency using modern",
+        "about.reactive": "front-end frameworks,",
+        "about.frameworks": "frameworks,",
+        "about.aswell": "<br/> as well as back-end services.",
+        "about.info.fullstack": "Full Stack Web Developer",
+        "about.info.graduate": "Numen Academy Graduate",
+        "about.info.p1": "Hello, my name is Franco and I am a full stack web developer with a passion for creating beautiful and functional websites and applications. With a strong foundation in both front end and back end development, I am able to bring projects from concept to launch with ease. My skills include proficiency in languages such as <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>SQL</b>, <b>Python</b>, front-end frameworks like <b>React</b>, as well as back-end services such as <b>MongoDB</b> databases and <b>Node.js</b> servers.",
+        "about.info.building": "Whether it's building responsive websites, developing scalable web applications, or integrating with APIs, I have the skills to take on a variety of projects, as well as high adaptability when learning new technologies.",
+        "about.info.graduated": "I graduated from Numen Academy and have received a degree in Full Stack Web Development backed by Argentine Atlantis University.",
+
+        "navbar.home": "Home",
+        "navbar.webapps": "Web Apps",
+        "navbar.work": "Work",
+        "navbar.contact": "Contact",
+
+        "webapps.titleBakery": "Premium Bakery",
+        "webapps.subBakery": "React Project",
+        "webapps.descBakery": "An online bakery store app, made with React for a group project.",
+
+        "contact.contact": "Contact me",
+        "contact.email": "Email me",
+        "contact.phone": "Call me"
+    }
+}

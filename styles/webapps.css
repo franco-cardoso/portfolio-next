@@ -1,0 +1,66 @@
+.mainContainer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 3px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+
+.mainContainer:hover .bgImg {
+    transform: scale(1.04) translateX(15px);
+    left: 15px;
+}
+
+.textWrapperWb {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.textWrapperWb:hover {
+    backdrop-filter: brightness(140%);
+    transform: translateX(-60px);
+}
+.textWrapperWb div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 30px 0;
+    text-align: end;
+    text-shadow: 2px 2px 5px #000;
+}
+.appTitle {
+    font-size: 2.6rem;
+    white-space: nowrap;
+    display: inline;
+}
+.appSub {
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+.appDesc {
+    color: rgb(207, 205, 205);
+    font-size: 1.5rem;
+    max-width: 700px;
+}
+
+@media (min-width: 920px) {
+    .textWrapperWb div {
+        margin: 0 80px;
+    }
+    .appTitle {
+        font-size: 4rem;
+    }
+    .appDesc,
+    .appSub {
+        font-size: 2rem;
+    }
+}

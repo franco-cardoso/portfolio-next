@@ -1,0 +1,107 @@
+.about {
+  /* width: 100%; */
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.textWrapper {
+  height: 100vh;
+  display: flex;
+  /* radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 85%) */
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 29%
+    ),
+    url(https://raw.githubusercontent.com/franco-cardoso/portfolio/main/src/Assets/img/bg.webp);
+  background-size: cover;
+  box-shadow: 0px 10px 30px 40px black;
+  position: relative;
+  align-items: center;
+  z-index: 2;
+}
+
+.textContainer {
+  padding: 0 60px;
+  box-shadow: 0px 0px 50px 40px rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  user-select: none;
+}
+
+.aboutTitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 70px;
+  text-align: end;
+  margin: 0;
+}
+
+.aboutText {
+  font-size: 38px;
+  margin: 20px 0;
+  font-family: Montserrat, sans-serif;
+  text-align: end;
+  color: rgb(176, 176, 176);
+  position: relative;
+}
+
+.movingLtrsSpan,
+.movingLtrsSpan span {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.funkySpan {
+  color: rgb(88 88 87);
+  transition: 0.5s;
+}
+
+.funkySpan:hover {
+  color: rgb(0, 255, 255);
+}
+
+.skillsetIcons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.aboutIcons {
+  margin: 0 5px;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+    .infoTextWrapper {
+        justify-content: center;
+    }
+    
+    .aboutText {
+        font-size: 35px;
+    }
+
+  .infoTextAnim {
+      margin: 0;
+      width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+  .textContainer {
+    padding: 0 30px;
+  }
+  .aboutTitle {
+    font-size: 55px;
+  }
+  .aboutText {
+    font-size: 32px;
+  }
+}
